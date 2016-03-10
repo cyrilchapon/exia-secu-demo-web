@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name exiaSecuDemoWebApp.controller:MainCtrl
+ * @name ingredifriendsWebApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the exiaSecuDemoWebApp
+ * Controller of the ingredifriendsWebApp
  */
-angular.module('exiaSecuDemoWebApp')
+angular.module('ingredifriendsWebApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
