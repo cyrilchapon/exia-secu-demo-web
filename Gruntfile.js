@@ -498,33 +498,30 @@ module.exports = function (grunt) {
       chrome: {
         options: {
           args: {
-            browser: "chrome"
+            browser: 'chrome'
           }
         }
       },
       safari: {
         options: {
           args: {
-            browser: "safari"
+            browser: 'safari'
           }
         }
       },
       firefox: {
         options: {
           args: {
-            browser: "firefox"
+            browser: 'firefox'
           }
         }
       }
     },
     
-    protractor_webdriver: {
+    protractorWebdriver: {
       options: {
         keepAlive: true
-      },
-      your_target: {
-        // Target-specific file lists and/or options go here. 
-      },
+      }
     }
   });
 
@@ -587,7 +584,7 @@ module.exports = function (grunt) {
     
     grunt.task.run([
       'replace:' + target,
-      'protractor_webdriver',
+      'protractorWebdriver',
       'protractor:chrome'
     ]);
   });
