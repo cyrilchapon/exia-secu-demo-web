@@ -1,5 +1,7 @@
 # Exia security demo - frontend
 
+[![Join the chat at https://gitter.im/cyrilchapon/exia-secu-demo-web](https://badges.gitter.im/cyrilchapon/exia-secu-demo-web.svg)](https://gitter.im/cyrilchapon/exia-secu-demo-web?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Contributing
 
 This project was generated with [yeoman angular generator](https://github.com/yeoman/generator-angular)
