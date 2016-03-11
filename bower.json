@@ -1,5 +1,5 @@
 {
-  "name": "ingredifriends-web",
+  "name": "exia-secu-demo-web",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -27,7 +27,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "ingredifriendsWebApp",
+  "moduleName": "exiaSecuDemoWebApp",
   "overrides": {
     "bootstrap": {
       "main": [

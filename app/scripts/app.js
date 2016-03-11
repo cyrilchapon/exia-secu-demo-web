@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name ingredifriendsWebApp
+ * @name exiaSecuDemoWebApp
  * @description
- * # ingredifriendsWebApp
+ * # exiaSecuDemoWebApp
  *
  * Main module of the application.
  */
 angular
-  .module('ingredifriendsWebApp', [
+  .module('exiaSecuDemoWebApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

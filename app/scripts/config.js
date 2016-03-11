@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc overview
- * @name ingredifriendsWebApp
+ * @name exiaSecuDemoWebApp
  * @description
- * # ingredifriendsWebApp
+ * # exiaSecuDemoWebApp
  *
  * Config for the application.
  */
 angular
-  .module('ingredifriendsWebApp')
-  .config(function(RestangularProvider, ingredifriendsWebConfig) {
-    RestangularProvider.setBaseUrl(ingredifriendsWebConfig.api.url);
+  .module('exiaSecuDemoWebApp')
+  .config(function(RestangularProvider, exiaSecuDemoWebConfig) {
+    RestangularProvider.setBaseUrl(exiaSecuDemoWebConfig.api.url);
     //RestangularProvider.setDefaultHttpFields({withCredentials: true});
   })
   .config(function(tmhDynamicLocaleProvider){

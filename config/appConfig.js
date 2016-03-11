@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc constant
- * @name ingredifriendswebApp.env
+ * @name exiaSecuDemoWebApp.env
  * @description
  * # env
- * Provider in the ingredifriendswebApp.
+ * Provider in the exiaSecuDemoWebApp.
  */
-angular.module('ingredifriendswebApp')
-  .constant('ingredifriendswebConfig', {
+angular.module('exiaSecuDemoWebApp')
+  .constant('exiaSecuDemoWebConfig', {
     api: {
       url: '@@api.url'
     }
