@@ -42,4 +42,5 @@ The page should :
 ### Pagination on customers
 
 Customers list view could be paginated, using [https://angular-ui.github.io/bootstrap/#/pagination](https://angular-ui.github.io/bootstrap/#/pagination)
+
 **Only talking about **client-side** pagination*
