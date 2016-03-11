@@ -10,6 +10,8 @@ One can contribute following [those guidelines](http://stackoverflow.com/questio
 
 Here's the [roadmap](ROADMAP.md)
 
+Every client-side strings should be *localized*. Project uses [angular-translate](https://angular-translate.github.io/), and strings are stored inside `app/languages/[lang].json` files
+
 ## Installation
 
 - [Install *yeoman* and *generator angular*](https://github.com/yeoman/generator-angular#usage)
