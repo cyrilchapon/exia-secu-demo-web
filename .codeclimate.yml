@@ -7,12 +7,15 @@ engines:
       - javascript
   jshint:
     enabled: true
+  scss-lint:
+    enabled: true
   fixme:
     enabled: true
 ratings:
   paths:
   - "app/**/*.js"
   - "config/**/*.js"
+  - "app/styles/**/*.scss"
 exclude_paths:
 - test/
 - Gruntfile.js
