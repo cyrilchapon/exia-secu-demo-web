@@ -1,6 +1,7 @@
 # Exia security demo - frontend
 
 [![Join the chat at https://gitter.im/cyrilchapon/exia-secu-demo-web](https://badges.gitter.im/cyrilchapon/exia-secu-demo-web.svg)](https://gitter.im/cyrilchapon/exia-secu-demo-web?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/cyrilchapon/exia-secu-demo-web.svg?branch=master)](https://travis-ci.org/cyrilchapon/exia-secu-demo-web)
 
 ## Contributing
 
