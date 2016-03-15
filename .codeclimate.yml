@@ -11,8 +11,8 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "app/**.js"
-  - "config/**.js"
+  - "app/**/*.js"
+  - "config/**/*.js"
 exclude_paths:
 - test/
 - Gruntfile.js
