@@ -1,4 +1,7 @@
 {
+  "header": {
+    "logout": "Déconnexion"
+  },
   "footer": {
     "copyright": "Codé avec soin @ exia.cesi"
   }

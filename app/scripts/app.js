@@ -24,4 +24,11 @@ angular
     'pascalprecht.translate',
     'angularMoment',
     'ngStorage'
+  ])
+  .run(function($rootScope, $localStorage, $location, Restangular) {
+    $rootScope.signOut = function() {
+      $localStorage.token = null;
+      Restangular.setDefaultHeaders({token: null});
+      $location.path('/signin');
+    };
   });

@@ -1,4 +1,7 @@
 {
+  "header": {
+    "logout": "Sign out"
+  },
   "footer": {
     "copyright": "Made with care @ exia.cesi"
   }
