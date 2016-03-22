@@ -10,12 +10,17 @@
  */
 angular
   .module('exiaSecuDemoWebApp')
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider) {  
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'main',
+        resolve: {
+          hasToken: function(authorization) {
+            return authorization.hasToken();
+          }
+        }
       })
       .when('/signin', {
         templateUrl: 'views/signin.html',
@@ -25,4 +30,11 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .run(function($rootScope, authorization, $location) {
+    $rootScope.$on("$routeChangeError", function (event, current, previous, rejection) {
+      if(rejection === authorization.rejectionReason) {
+        $location.path('/signin');
+      }
+    });
   });
