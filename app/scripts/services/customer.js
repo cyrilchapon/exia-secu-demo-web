@@ -3,7 +3,7 @@
 angular.module('exiaSecuDemoWebApp')
   .service('CustomerService', function ($log, $q, Restangular) {
 
-    var customers = Restangular.all('customers');
+    var customers = Restangular.all('customer');
 
     this.fetchAll = function () {
       return customers.getList();
