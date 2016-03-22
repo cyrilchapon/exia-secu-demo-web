@@ -17,10 +17,10 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/signin', {
+        templateUrl: 'views/signin.html',
+        controller: 'SigninCtrl',
+        controllerAs: 'signin'
       })
       .otherwise({
         redirectTo: '/'
