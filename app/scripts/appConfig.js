@@ -10,6 +10,6 @@
 angular.module('exiaSecuDemoWebApp')
   .constant('exiaSecuDemoWebConfig', {
     api: {
-      url: 'http://localhost:8080/api'
+      url: 'http://localhost:1337'
     }
   });
