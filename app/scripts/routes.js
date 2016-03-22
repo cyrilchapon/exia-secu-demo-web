@@ -32,7 +32,7 @@ angular
       });
   })
   .run(function($rootScope, authorization, $location) {
-    $rootScope.$on("$routeChangeError", function (event, current, previous, rejection) {
+    $rootScope.$on('$routeChangeError', function (event, current, previous, rejection) {
       if(rejection === authorization.rejectionReason) {
         $location.path('/signin');
       }
