@@ -8,15 +8,16 @@
  * Controller of the exiaSecuDemoWebApp
  */
 angular.module('exiaSecuDemoWebApp')
-  .controller('SigninCtrl', function ($scope, $location, AuthService) {
+  .controller('SigninCtrl', function ($scope, $location, AuthService, $window) {
         $scope.email = $scope.password = '';
+        
         $scope.connect = function(email, password) {
             AuthService.auth(email, password)
-                .then(function(x) {
+                .then(function() {
                     $location.path('/');
                 })
                 .catch(function(x) {
-                    alert('Authentification or network error: ' + x);
+                    $window.alert('Authentification or network error: ' + x);
                 });
         };
     });
