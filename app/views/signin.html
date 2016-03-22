@@ -1,12 +1,19 @@
-<div class="jumbotron">
-  <form>
+<div class="well">
+  <form ng-submit="connect(email, password)">
     <h3>Sign In</h3>
+    
     <div class="form-group">
       <input type="email" class="form-control" placeholder="Email" ng-model="email" />
     </div>
+    
     <div class="form-group">
       <input type="password" class="form-control" placeholder="Password" ng-model="password" />
     </div>
-    <button type="button" class="btn btn-default" ng-click="connect(email, password)">Connect</button>
+    
+    <div class="col-md-4 col-md-offset-4">
+      <button type="submit" class="btn btn-primary btn-block"><i class="glyphicon glyphicon-log-in"></i> Connect</button>
+    </div>
+    
+    <div class="clearfix"></div>
   </form>
 </div>
