@@ -22,5 +22,6 @@ angular
     '$q-spread',
     'tmh.dynamicLocale',
     'pascalprecht.translate',
-    'angularMoment'
-  ]);
+    'angularMoment',
+    'ngStorage'
+  });

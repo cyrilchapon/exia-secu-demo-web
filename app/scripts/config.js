@@ -46,4 +46,9 @@ angular
     
     //configure locale for angular-moment
     amMoment.changeLocale(lang);
+  })
+  .run(function(Restangular, $localStorage) {
+    if($localStorage.token) {
+      Restangular.setDefaultHeaders({token: $localStorage.token});
+    }
   });
